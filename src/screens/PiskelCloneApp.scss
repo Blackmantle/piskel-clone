@@ -1,0 +1,8 @@
+.piskel-clone-app {
+    display: flex;
+    margin-top: 10px;
+    padding: 0 10px;
+    & * {
+        user-select: none;
+    }
+}

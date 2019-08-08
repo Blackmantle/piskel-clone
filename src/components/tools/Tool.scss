@@ -1,0 +1,15 @@
+.tool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    color: white;
+    background-color: #444;
+    cursor: pointer;
+    &--active {
+        color: gold;
+        border: 2px solid gold;
+    }
+}

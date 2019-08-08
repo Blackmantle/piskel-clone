@@ -1,0 +1,40 @@
+.export-menu {
+    display: grid;
+    grid-gap: 10px;
+    width: 204px;
+    margin-top: 10px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        font-weight: bold;
+        background-color: gold;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover {
+            background-color: lighten(gold, 15%);
+        }
+    }
+}
+
+.download-btn {
+    width: 100px;
+}
+
+.select-file-type {
+    width: 95px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    & option {
+        font-weight: bold;
+    }
+}

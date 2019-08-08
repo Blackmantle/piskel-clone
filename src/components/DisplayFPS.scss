@@ -1,0 +1,16 @@
+.display-fps {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 204px;
+    height: 40px;
+    background-color: #444;
+    border-radius: 0 0 4px 4px;
+    &__range {
+        outline: none;
+    }
+    &__text {
+        margin-left: 10px;
+        color: white;
+    }
+}

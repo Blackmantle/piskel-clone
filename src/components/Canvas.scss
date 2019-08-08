@@ -1,0 +1,11 @@
+.canvas-wrapper {
+    background: url('../img/fon.png') repeat;
+    border: 2px solid gray;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+.canvas {
+    transform-origin: 0 0;
+    image-rendering: pixelated;
+}

@@ -1,0 +1,36 @@
+.page-header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #2D2D2D;
+    color: white;
+    z-index: 999;
+    &__logo {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+    }
+    &__nav {
+        margin-left: 30px;
+    }
+    &__link {
+        padding-bottom: 2px;
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+    }
+    &__link:hover,
+    &__link--active {
+        color: gold;
+    }
+    &__right-menu {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: auto;
+    }
+}

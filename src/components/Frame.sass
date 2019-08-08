@@ -1,0 +1,45 @@
+.frame
+    position: relative
+    width: 100px
+    height: 100px
+    border: 2px solid gray
+    border-radius: 4px
+    box-sizing: content-box
+    background: url('../img/fon.png') repeat
+    overflow: hidden
+    cursor: pointer
+    &--active
+        border: 2px solid gold
+    &__canvas
+        transform-origin: 0 0
+        image-rendering: pixelated
+    &__box
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        width: 30px
+        height: 30px
+        color: white
+    &__id
+        top: 0
+        left: 0
+        font-weight: bold
+        color: black
+        background-color: gold
+        border-radius: 0 0 4px 0
+    &__delete-btn,
+    &__copy-btn
+        display: none
+        right: 0
+        background-color: gray
+    &__delete-btn
+        top: 0
+        border-radius: 0 0 0 4px
+    &__copy-btn
+        bottom: 0
+        border-radius: 4px 0 0 0
+    &:hover
+        .frame__delete-btn,
+        .frame__copy-btn
+            display: flex

@@ -1,0 +1,26 @@
+.frames {
+    width: 140px;
+    margin-left: 30px;
+    &__wrapper {
+        display: grid;
+        grid-gap: 10px;
+        justify-content: center;
+        max-height: 650px;
+        overflow-y: auto;
+    }
+    &__add-new-btn {
+        width: 140px;
+        height: 40px;
+        margin-top: 10px;
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        &:hover {
+            color: gold;
+            border: 2px solid gold;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.preview {
+    $self: &;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D1D1D;
+    &__wrapper {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 2px solid gray;
+        box-sizing: content-box;
+        background: url('../img/fon.png') repeat;
+        overflow: hidden;
+        &:hover {
+            #{ $self }__fullscreen-btn {
+                display: flex;
+            }
+        }
+    }
+    &__canvas {
+        transform-origin: 0 0;
+        image-rendering: pixelated;
+    }
+    &__fullscreen-btn {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: 0;
+        top: 0;
+        color: white;
+        background-color: gray;
+        border-radius: 0 0 0 4px;
+        cursor: pointer;
+        z-index: 2;
+    }
+}
