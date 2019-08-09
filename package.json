@@ -2,7 +2,7 @@
   "name": "piskel-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Blackmantle/piskel-clone",
+  "homepage": "https://blackmantle.github.io/piskel-clone",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-regular-svg-icons": "^5.9.0",
